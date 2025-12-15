@@ -1,10 +1,10 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Título tema'")
+  BannerInterno(:subTitulo="'4. Título tema'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    #t_3_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.1] Subtítulo tema
+    #t_4_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 4.1] Subtítulo tema
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -33,7 +33,7 @@
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
