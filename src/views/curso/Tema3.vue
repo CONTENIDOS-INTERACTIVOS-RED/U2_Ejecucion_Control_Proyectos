@@ -83,7 +83,7 @@
     .bg-full-width.bg-color-3
       .px-4.px-md-5
         h2(data-aos="fade-left") Componentes fundamentales del EVM
-        p.mb-5 compone 
+        p.mb-5 La base del EVM se compone de tres elementos clave que permiten evaluar el estado financiero y temporal del proyecto: 
         .row.justify-content-center.align-items-stretch.mb-5
           .col-lg-4.mb-4(data-aos="zoom-in-up")
             .custom-image-card-2.h-100
