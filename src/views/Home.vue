@@ -35,7 +35,7 @@
       footer.footer.bg-white
         .container.px-4.py-3
           .row.justify-content-start.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img.logo-footer(
                 src="@/assets/portada/logo-footer.png"
                 alt="Logo Tecnológica del Oriente"

@@ -29,7 +29,7 @@
     .bg-full-width.bg-color-4
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3mb-lg-0
             img(src="@/assets/curso/tema4/4.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 A continuación, se presenta un video  que analiza la aplicación continua de procesos de control de calidad y aseguramiento de objetivos a lo largo del ciclo de vida de un proyecto, destacando su impacto en la eficiencia, la satisfacción del cliente y la mejora continua dentro de la gestión organizacional.
@@ -77,28 +77,28 @@
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/6.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Diagramas causa efecto
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/7.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Diagramas de flujo
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/8.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Hojas de verificación
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/9.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Diagramas de Pareto
@@ -107,21 +107,21 @@
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/10.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Histogramas
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/11.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Diagramas de control
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/12.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Diagramas de dispersión
@@ -133,7 +133,7 @@
 
     .bg-color-2.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema4/14.png', alt='')
         .col-lg
@@ -218,7 +218,7 @@
     p.mb-5 Más allá del diagnóstico de problemas, el diagrama promueve la prevención en lugar de la simple corrección. Esto se logra al:
 
     .bg-full-width.bg-color-4.mb-5
-      .p-4.px-md-5.p-md-0
+      .p-4.px-lg-5.p-lg-0
         .row.justify-content-center.align-items-center
           .col-lg-12
             .row.justify-content-center.align-items-center
@@ -237,7 +237,7 @@
               .col-lg-5(data-aos="zoom-in").order-lg-1
                 img.img-fluid(src='@/assets/curso/tema4/26.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
 
-    h2(data-aos="fade-left").mb-5 Diagramas de flujo.
+    h2(data-aos="fade-left").mb-5 Diagramas de flujo
 
     .row.mb-5
       .col-lg-4.order-lg-2.mb-3.mb-lg-0
@@ -248,7 +248,7 @@
     
         .bg-color-9.mb-3.p-4(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/28.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Los diagramas de flujo son ampliamente utilizados en diversas áreas técnicas y administrativas porque ayudan a descomponer procesos complejos en pasos simples y manejables. Al detallar cada etapa y las interacciones entre ellas, esta herramienta permite detectar redundancias, cuellos de botella o pasos innecesarios, lo cual resulta fundamental para la optimización de procesos. 
@@ -311,7 +311,7 @@
     
         .bg-color-4.p-4(data-aos="fade-left").mb-3
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/31.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 En términos técnicos, el diagrama de Pareto permite clasificar y cuantificar las no conformidades, defectos, errores o cualquier otra variable crítica, diferenciando entre las causas vitales y las triviales. Al ordenar los datos en función de su magnitud relativa, se facilita la toma de decisiones basada en evidencias, concentrando los esfuerzos de mejora sobre los factores que aportan el mayor beneficio en la reducción de fallas o en la optimización del desempeño.
@@ -339,7 +339,7 @@
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/33.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5 1
@@ -347,7 +347,7 @@
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/34.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5 2
@@ -355,7 +355,7 @@
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/35.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5 3
@@ -365,7 +365,7 @@
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/36.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5 4
@@ -373,7 +373,7 @@
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema4/37.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5 5

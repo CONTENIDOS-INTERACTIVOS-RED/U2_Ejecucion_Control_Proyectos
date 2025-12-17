@@ -30,7 +30,7 @@
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema1/2.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5.mb-2 1
@@ -38,7 +38,7 @@
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema1/3.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5.mb-2 2
@@ -46,7 +46,7 @@
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-6.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema1/4.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5.mb-2 3
@@ -105,7 +105,7 @@
         .bg-full-width.bg-color-2.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3mb-lg-0
                 img(src="@/assets/curso/tema1/9.svg", style="max-width: 90px").mx-auto
               .col-lg.text-white
                 p.mb-0 La figura  ilustra el ciclo de vida de un proyecto, destacando las etapas de inicio, planificación, ejecución y cierre, así como el papel transversal del monitoreo y control, que permite realizar acciones de rediseño, corrección y verificación.
@@ -204,7 +204,7 @@
       .col-lg-8
         .bg-color-6.p-4(data-aos="fade-left").mb-4
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema1/25.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Las técnicas de monitoreo y control permiten supervisar de forma sistemática el desempeño del proyecto respecto a las dimensiones clave: alcance, cronograma, costos y calidad, tal como están definidos en el plan de gestión. Su aplicación oportuna permite identificar desviaciones, analizar sus causas y tomar decisiones correctivas o preventivas, asegurando el cumplimiento de los objetivos establecidos.

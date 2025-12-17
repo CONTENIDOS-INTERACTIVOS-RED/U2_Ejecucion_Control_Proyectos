@@ -12,7 +12,7 @@
     
         .bg-color-1.p-4(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema3/2.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 En proyectos del sector público, suele exigirse un cumplimiento estricto del presupuesto, mientras que en otros sectores se valora positivamente el ahorro. Para llevar a cabo un seguimiento efectivo, se utilizan técnicas específicas de control financiero, siendo la más reconocida la Gestión del Valor Ganado (EVM).
@@ -55,7 +55,7 @@
         .bg-color-6.mb-3
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3mb-lg-0
                 img(src="@/assets/curso/tema3/8.svg", style="max-width: 90px").mx-auto
               .col-lg
                 h5 1
@@ -64,7 +64,7 @@
         .bg-color-6.mb-3
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3mb-lg-0
                 img(src="@/assets/curso/tema3/9.svg", style="max-width: 90px").mx-auto
               .col-lg
                 h5 2
@@ -73,7 +73,7 @@
         .bg-color-6.mb-3
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3mb-lg-0
                 img(src="@/assets/curso/tema3/10.svg", style="max-width: 90px").mx-auto
               .col-lg
                 h5 3
@@ -137,7 +137,7 @@
         .bg-color-6.mb-3
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3mb-lg-0
                 img(src="@/assets/curso/tema3/14.svg", style="max-width: 90px").mx-auto
               .col-lg
                 h5 <em>Estimate at Completion</em> (EAC)
@@ -146,7 +146,7 @@
         .bg-color-6.mb-3
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3mb-lg-0
                 img(src="@/assets/curso/tema3/14.svg", style="max-width: 90px").mx-auto
               .col-lg
                 h5 <em>Estimate to Complete</em> (ETC)

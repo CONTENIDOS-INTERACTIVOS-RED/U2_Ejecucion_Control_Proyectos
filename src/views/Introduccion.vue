@@ -17,7 +17,7 @@
     .bg-full-width.bg-color-2.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3mb-lg-0
             img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
             p.mb-0 La unidad está estructurada en cuatro ejes temáticos, en primer lugar, se abordarán técnicas de monitoreo y control en la gestión de proyectos, en segundo lugar, se desarrollará la identificación y aplicación de indicadores de desempeño (KPI) y métricas de control, en tercer lugar, se estudiará el control de costos mediante la metodología Earned Value Management (EVM), y finalmente, se revisarán estrategias para el aseguramiento de la calidad, además, se desarrollarán actividades prácticas que permitirán aplicar los conceptos y herramientas estudiadas en contextos simulados o reales.

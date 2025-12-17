@@ -99,7 +99,7 @@
       .col-lg-8
         .bg-color-6.p-4(data-aos="fade-left").mb-3
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3mb-lg-0
               img(src="@/assets/curso/tema2/7.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Las métricas de control son parámetros cuantitativos utilizados para supervisar variables clave durante el desarrollo del proyecto. A diferencia de los Indicadores Clave de Desempeño (KPI), que están centrados en metas estratégicas, estas métricas se enfocan en actividades operativas específicas, permitiendo un seguimiento detallado y la detección temprana de desviaciones.
