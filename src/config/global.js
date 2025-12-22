@@ -76,28 +76,6 @@ export default {
         desarrolloContenidos: true,
       },
       {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo:
-          'Cierre del proyecto: entrega de resultados y documentación final',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Tipos de cierre de proyectos',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Actividades para el cierre del proyecto',
-            hash: 't_5_2',
-          },
-        ],
-      },
-      {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
         desarrolloContenidos: true,

@@ -401,6 +401,10 @@
           p.mb-0 Gracias a este análisis combinado, el equipo prioriza las acciones correctivas en estos dos módulos, asignando más tiempo de revisión y pruebas específicas en sus procesos. Esto les permite enfocar los recursos en las causas más relevantes, reduciendo el riesgo de entregar un producto con deficiencias graves y asegurando que el sistema cumpla con los estándares de calidad establecidos para su implementación en la institución educativa.
 
 
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
 
     .bg-full-width.border-top.color-primario
@@ -432,8 +436,185 @@
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema4',
+  name: 'Tema5',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Herramientas colaborativas para la construcción de paz',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál es el propósito principal del control en la gestión de proyectos?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Determinar la duración total del cronograma propuesto',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Estimar los recursos humanos disponibles en el equipo',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Medir el desempeño real frente al plan establecido ',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Identificar el tipo de contrato aplicable al proyecto',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué herramienta se utiliza para evaluar el rendimiento del proyecto integrando alcance, tiempo y costo?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Earned Value Management (EVM) ',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Análisis PESTEL aplicado al entorno',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Lluvia de ideas para resolución de conflictos',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Árbol de decisiones para seleccionar actividades',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Cuál es el objetivo del seguimiento en la gestión de proyectos?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Estimar la inversión inicial del proyecto',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Observar el progreso y generar reportes actualizados ',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Determinar el diseño gráfico del cronograma',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Aplicar encuestas para evaluar la satisfacción del cliente ',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto: '¿Qué componente forma parte de la línea base del proyecto?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Manual de funciones de los colaboradores',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Formato de reuniones con el cliente',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Registro histórico de proyectos anteriores',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Plan aprobado de cronograma, costo y alcance ',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué función cumple el uso de indicadores clave de desempeño (KPI) en el control del proyecto?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Controlar exclusivamente los recursos financieros asignados',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Determinar la fecha de entrega de cada entregable',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Medir logros en tiempo, costo, calidad y recursos ',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Registrar exclusivamente los avances en comunicación',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -442,4 +623,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
