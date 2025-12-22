@@ -38,7 +38,7 @@
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/qm20NxVMcmE?si=2HxKumxdAKJci-HW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     h2(data-aos="fade-left") Función estratégica para la toma de decisiones
     p.mb-5 Aplicar de manera sistemática el control de calidad y el aseguramiento del cumplimiento de objetivos permite contar con información:
